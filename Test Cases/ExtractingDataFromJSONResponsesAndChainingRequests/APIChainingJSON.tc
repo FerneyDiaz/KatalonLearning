@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test2</name>
+   <name>APIChainingJSON</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>84724057-cdfb-4b8b-bcb6-0348f8e47349</testCaseGuid>
+   <testCaseGuid>1c41b2c4-bde8-4f3a-b2b0-268b0ec10445</testCaseGuid>
 </TestCaseEntity>

@@ -13,3 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+response1 = WS.sendRequest(findTestObject('userRestService/listUser'))
+def supler = new groovy.json.JsonSlurper()
+def result = supler.parseText(response1.getResponseBodyContent())
+def value = result.data[1].first_name
+
+
+println('Valor extraido ' + value)
+GlobalVariable.userName = value
+println('Variable global ' + GlobalVariable.userName)
+WS.sendRequestAndVerify(findTestObject('userRestService/UpdateUser', [('userName') : GlobalVariable.userName]))
+

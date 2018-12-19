@@ -13,14 +13,26 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object userName
+     
+    /**
+     * <p></p>
+     */
+    public static Object countryISOCode
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['userName' : '', 'countryISOCode' : 'CO'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        userName = selectedVariables['userName']
+        countryISOCode = selectedVariables['countryISOCode']
         
     }
 }
