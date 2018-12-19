@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Web Services,,,2018-12-18 11:42:32,2018-12-18 11:42:40,"8,424s",PASSED
+,,,,,,
+Test Cases/calculatorTest/addition,,,2018-12-18 11:42:33,2018-12-18 11:42:37,"4,391s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(calculator SOAP1/Add)),,,2018-12-18 11:42:34,2018-12-18 11:42:35,"1,607s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(calculator SOAP1/Add)),,,2018-12-18 11:42:35,2018-12-18 11:42:37,"1,634s",PASSED
+verifyElementPropertyValue,,,2018-12-18 11:42:37,2018-12-18 11:42:37,"0,162s",PASSED
+,,,,,,
+Test Cases/getBankDetails,,,2018-12-18 11:42:37,2018-12-18 11:42:38,"0,965s",PASSED
+sendRequest,,,2018-12-18 11:42:37,2018-12-18 11:42:38,"0,654s",PASSED
+,,,,,,
+Test Cases/listUserTest/listUser,,,2018-12-18 11:42:38,2018-12-18 11:42:40,"2,138s",PASSED
+sendRequest,,,2018-12-18 11:42:38,2018-12-18 11:42:39,"1,057s",PASSED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(userRestService/listUser)),,,2018-12-18 11:42:39,2018-12-18 11:42:40,"0,658s",PASSED
+verifyElementPropertyValue,,,2018-12-18 11:42:40,2018-12-18 11:42:40,"0,028s",PASSED
+verifyElementPropertyValue,,,2018-12-18 11:42:40,2018-12-18 11:42:40,"0,022s",PASSED
+verifyElementsCount,,,2018-12-18 11:42:40,2018-12-18 11:42:40,"0,047s",PASSED
+verifyResponseStatusCodeInRange,,,2018-12-18 11:42:40,2018-12-18 11:42:40,"0,015s",PASSED
