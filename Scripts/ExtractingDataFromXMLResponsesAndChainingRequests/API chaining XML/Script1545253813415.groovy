@@ -14,13 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 response1 = WS.sendRequest(findTestObject('countryService/SOAP/ListOfCountryNamesByName'))
-
 String xml1 = response1.responseBodyContent
 def dataValue = new XmlSlurper().parseText(xml1)
-def countryCode = dataValue.ListOfCountryNamesByNameResponse.ListOfCountryNamesByNameResult.tCountryCodeAndName.tCountryCodeAndName[0].sISOCode.text()
+def countryCode = dataValue.ListOfCountryNamesByNameResult.tCountryCodeAndName[2].sISOCode.text()
 
-println("Variable global: "+countryCode)
-
+println('Variable global: ' + countryCode)
 GlobalVariable.countryISOCode = countryCode
-WS.sendRequest(findTestObject('countryService/SOAP/CapitalCity', [('countryISOCode') : GlobalVariable.countryISOCode]))
+WS.sendRequestAndVerify(findTestObject('countryService/SOAP/CapitalCity', [('countryISOCode') : GlobalVariable.countryISOCode]))
 

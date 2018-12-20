@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\fdiazp\\AppData\\Local\\Temp\\Katalon\\Test Cases\\ExtractingDataFromJSONResponsesAndChainingRequests\\APIChainingJSON\\20181219_145241\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\fdiazp\\AppData\\Local\\Temp\\Katalon\\Test Cases\\ExtractingDataFromXMLResponsesAndChainingRequests\\API chaining XML\\20181219_172506\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/ExtractingDataFromJSONResponsesAndChainingRequests/APIChainingJSON', new TestCaseBinding('Test Cases/ExtractingDataFromJSONResponsesAndChainingRequests/APIChainingJSON',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/ExtractingDataFromXMLResponsesAndChainingRequests/API chaining XML', new TestCaseBinding('Test Cases/ExtractingDataFromXMLResponsesAndChainingRequests/API chaining XML',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

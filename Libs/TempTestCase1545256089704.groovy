@@ -15,7 +15,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\fdiazp\\AppData\\Local\\Temp\\Katalon\\Test Cases\\ExtractingDataFromXMLResponsesAndChainingRequests\\API chaining XML\\20181219_162747\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\fdiazp\\AppData\\Local\\Temp\\Katalon\\Test Cases\\ExtractingDataFromXMLResponsesAndChainingRequests\\API chaining XML\\20181219_164805\\execution.properties')
 
 TestCaseMain.beforeStart()
 

@@ -29,4 +29,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/listUserTest/listUser</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>04e03aed-7bf4-455e-a9a9-9aa6c6c1db7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ExtractingDataFromJSONResponsesAndChainingRequests/APIChainingJSON</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63a7711d-2fce-474b-8358-5cf4e6612888</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ExtractingDataFromXMLResponsesAndChainingRequests/API chaining XML</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
